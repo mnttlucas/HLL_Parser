@@ -1,0 +1,43 @@
+Constants:
+	bool t1 := true;
+	bool t2 := TRUE;
+	bool t3 := True;
+	bool f1 := false;
+	bool f2 := FALSE;
+	bool f3 := False;
+	bool e1 := if f1 then true elif t2 then true else false;
+	bool e2 := ~t1;
+	bool e3 := t1 & f1;
+	bool e4 := f2 # f3;
+	bool e5 := t2 #! t3;
+	bool e6 := e1 -> e4;
+	bool e7 := e5 <-> e6;
+
+constants:
+	int 'i1' := 0;
+	int 'i2' := 123_456_789;
+	int 'i3' := 0b01;
+	int 'i4' := 0B1_0;
+	int 'i5' := 0xFB50;
+	int 'i6' := 0XFB_50;
+	int "e1" := 'i1' + 'i3';
+	int "e2" := 'i2' * 'i4';
+	int "e3" := 'i2' - 'i6';
+	int "e4" := 'i3' / 'i4';
+	int "e5" := -"e1";
+	int "e6" := 'i2' ^ 'i3';
+	int "e7" := 'i3' % 'i4';
+	int "e8" := 'i3' /> 'i4';
+	int "e9" := 'i3' /< 'i4';
+	int "e10" := 'i5' >> 'i3';
+	int "e11" := 'i5' << 'i3';
+
+Constants:
+	bool c1 := 'i1' > 'i6';
+	bool c2 := 'i5' >= 'i2';
+	bool c3 := 'i1' < 'i6';
+	bool c4 := 'i2' <= 'i3';
+	bool c5 := c1 = c2;
+	bool c6 := 'i3' == 'i4';
+	bool c7 := 'i5' != 'i6';
+	bool c8 := t3 <> f3;

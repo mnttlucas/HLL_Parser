@@ -1,0 +1,13 @@
+Inputs:
+
+Definitions:
+
+Outputs:
+
+Constraints:
+
+Proof Obligations:
+  TRUE; // Array projection bounds check
+  s37; // PO 11
+  ~s1;
+  ~TRUE;

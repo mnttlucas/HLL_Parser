@@ -1,0 +1,15 @@
+Inputs:
+  s1;
+  s2;
+  s3;
+
+Definitions:
+  s4 := X(s1);
+  s5 := X(s4);
+  s6 := X(s5);
+
+Outputs:
+
+Constraints:
+
+Proof Obligations:

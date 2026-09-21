@@ -1,0 +1,11 @@
+Proof Obligations:
+	po1;
+
+Proof obligations:
+	(po2[0]);
+
+proof Obligations:
+	po3 & po4 & ~po5;
+
+proof obligations:
+	po6 != 0;

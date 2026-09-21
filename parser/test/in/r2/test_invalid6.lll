@@ -1,0 +1,17 @@
+Inputs:
+  s1;
+  s2;
+  s3;
+
+Definitions:
+  s4 := ~s2 -> s3;
+  s5 := s1 <-> s4;
+  s6 := X(s1);
+  s7 := TRUE, s6;
+  s8 := ~TRUE, ~s6; // invalid
+
+Outputs:
+
+Constraints:
+
+Proof Obligations:

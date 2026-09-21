@@ -1,0 +1,49 @@
+(test
+ (name test_parser)
+ (deps in/complete/test_river.lll
+
+	   in/errors/test_invalid1.lll
+	   in/errors/test_invalid2.lll
+	   in/errors/test_invalid3.lll
+	   in/errors/test_invalid4.lll
+ 
+	   in/sections/test_constraint.lll
+	   in/sections/test_definition.lll
+	   in/sections/test_input.lll
+	   in/sections/test_output.lll
+	   in/sections/test_proof.lll
+	   
+	   in/r1/test_invalid1.lll
+	   in/r1/test_invalid2.lll
+	   in/r1/test_invalid3.lll
+	   in/r1/test_invalid4.lll
+	   in/r1/test_invalid5.lll
+	   in/r1/test_valid.lll
+
+	   in/r2/test_invalid1.lll
+	   in/r2/test_invalid2.lll
+	   in/r2/test_invalid3.lll
+	   in/r2/test_invalid4.lll
+	   in/r2/test_invalid5.lll
+	   in/r2/test_invalid6.lll
+	   in/r2/test_invalid7.lll
+	   in/r2/test_valid.lll
+	   
+	   in/r3/test_invalid.lll
+	   in/r3/test_valid.lll
+
+	   in/r4/test_invalid1.lll
+	   in/r4/test_invalid2.lll
+	   in/r4/test_valid.lll
+	   
+	   in/r5/test_invalid1.lll
+	   in/r5/test_invalid2.lll
+	   in/r5/test_invalid3.lll
+	   in/r5/test_invalid4.lll
+	   in/r5/test_valid.lll
+
+	   in/r6/test_invalid1.lll
+	   in/r6/test_invalid2.lll
+	   in/r6/test_invalid3.lll
+	   in/r6/test_valid.lll)
+ (libraries lib alcotest))

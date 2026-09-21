@@ -1,0 +1,10 @@
+Outputs:
+	o1;
+	o2;
+
+outputs:
+	o3[1];
+	o4.a;
+	~o5;
+	o6.0;
+	o7(2);

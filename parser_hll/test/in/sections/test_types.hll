@@ -1,0 +1,26 @@
+Constants:
+	int i := 16;
+
+Types:
+	bool b1;
+	bool b2, b3;
+	int [0, 100] i1, i2, i3;
+	int unsigned 32 i4;
+	int signed 8 i5, i6;
+	int signed i i7;
+	
+types:
+	tuple {bool, int, int unsigned 8} t;
+	struct {s:bool, v:int signed 16, m:int [0, 360]} st;
+	int ^ (i) arr;
+	int [0, 9] ^ (3, 3) grid;
+	(int [0, 360] * int -> int) conv1;
+	(int -> int) conv2;
+	ns1::id1 nt1;
+	::ns2::id2 nt2;
+	sort s;
+	sort s < r;
+	sort {s1, s2, s3} < r;
+	sort ns3::ns4::id3, ::ns5::ns6::id4 < s4;
+	enum {e1, e2, e3} en1;
+	enum {e4} en2;

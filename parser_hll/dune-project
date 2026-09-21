@@ -1,0 +1,9 @@
+(lang dune 3.17)
+
+(using menhir 2.0)
+
+(name parser_hll)
+
+(generate_opam_files true)
+
+(authors "Lucas Montemont <lucas.montemont@ratp.fr>")

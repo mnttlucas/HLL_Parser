@@ -1,0 +1,13 @@
+Inputs:
+
+Definitions:
+
+Outputs:
+  s1;
+  ~s2;
+  TRUE;
+  ~TRUE;
+
+Constraints:
+
+Proof Obligations:

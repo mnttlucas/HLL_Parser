@@ -1,0 +1,12 @@
+(test
+ (name test_parser_hll)
+ (deps in/sections/test_constants.hll
+	   in/sections/test_constraints.hll
+	   in/sections/test_declarations.hll
+	   in/sections/test_definitions.hll
+	   in/sections/test_inputs.hll
+	   in/sections/test_namespaces.hll
+	   in/sections/test_outputs.hll
+	   in/sections/test_proofs.hll
+	   in/sections/test_types.hll)
+ (libraries lib alcotest))

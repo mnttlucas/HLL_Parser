@@ -1,0 +1,6 @@
+Declarations:
+	int f (int)(int), arr[3, 3](int);
+	bool b, m5(bool, bool, bool, bool, bool);
+
+declarations:
+	d1, d2;

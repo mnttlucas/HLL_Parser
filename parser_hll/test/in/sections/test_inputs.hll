@@ -1,0 +1,6 @@
+Inputs:
+	bool b[1, 2], I(k[0xFF, -5]);
+	int f(int, int), I(in), I(j(bool, int));
+
+inputs:
+	u1, I(u2);

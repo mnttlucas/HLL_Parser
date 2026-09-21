@@ -1,0 +1,55 @@
+Definitions:
+	f1, f2, _ := 0;
+	t := {1, true, 0xC0};
+	arr[i1, i2] := 0;
+	f3(p1)(p2) := -1;
+	comp := {true, {0, {false, 2}}};
+	_ := False;
+
+definitions:
+	I(s1) := TRUE;
+	X(s1) := FALSE;
+
+Definitions:
+	s3 := True, s2;
+	l := lambda[3]:[i] := i = 1;
+	fibonacci := lambda(int): (i) := if i <= 2 then 1 else fibonacci(i - 1) + fibonacci(i - 2);
+	m1 := s3 : bool;
+	m2 := s1 : int;
+	m3 := func : ::ns::val;
+	m4 := i2 : [0, 100];
+	ne := ns::expr;
+	n := X(ns);
+	pr1 := pre <bool> (s1, true);
+	pr2 := PRE <int> (f1);
+	pr3 := pre (s3);
+	pr4 := pre (pr3, false);
+	f1 := $min(s1, s2);
+	f2 := $max(s1, s2);
+	f3 := $abs(n);
+	f4 := $or(s1, s3);
+	f5 := $and(s1, s2);
+	f6 := $xor(s1, s2);
+	f7 := $not(s1);
+	f8 := bin2u(b, 3);
+	f9 := u2bin(i, 3);
+	f10 := bin2s(b, 3);
+	f11 := s2bin(i, 3);
+	f12 := population_count_eq(s1, s2, s3, 0);
+	f13 := population_count_gt(s1, s2, s3, 0);
+	f14 := population_count_lt(s1, s2, s3, 0);
+	c := cast <int signed 16> (f2);
+	w := (str with .el1 := true);
+	sw := (s1, s2, s3 | true, true, true => 0 | false, false, false => 9 | _, ns::t nst, ns::t _ => 3);
+	q1 := ALL i:[0, 2] (A[i] = 0);
+	q2 := SOME i:[0, 2] (A[i] = 0);
+	q3 := SUM i:[0, 2] (A[i]);
+	q4 := PROD i:[0, 2] (A[i]);
+	q5 := $min i:[0, 2] (A[i]);
+	q6 := $max i:[0, 2] (A[i]);
+	q7 := CONJ i:[0, 2] (A[i] = 0);
+	q8 := DISJ i:[0, 2] (A[i] = 0);
+	q9 := ALL i:[0, 100] ALL j:[0, 100] (P(i) -> P(j));
+	q10 := ALL a:$items(A) (a = 0);
+	q11 := SELECT i:[0, 2] (A[i] = 0);
+	q12 := SELECT i:[0, 2] (A[i] = 0, 0);
